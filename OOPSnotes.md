@@ -19,3 +19,14 @@ Ex 1.2, shows that there are multiple attributes/features of the car like the ca
 
 **init** (initialization):
 It is known as the CONSTRUCTOR, even if you dont write the init fn, python automatically writes it and executes it. The constructor always take an argument/ a parameter called "Self". The self overhere means the new object which is been creating it is that only, means we are now creating s1 right? then the self points the s1 itself that IT IS S1 {MEIN KHUD}
+
+**New Parameters to class: (1.4)**
+Adding new paramet, fullname to the constructor, defined self.name=fullname, it means if someone calls s1.name (bcoz s1=self, s2=self **SELF IS A REFRENCE** NOT A OBJECT!!)then provide him the fullname!
+
+**1.5 Default & Parameterized Constructors**
+1.5 shows default constructor which only has "Self" in it and nothing else, if we dont create a default constructor then python will automatically create it
+The Parameterized constructores are constructores which not only has the self constructor but also few different parametes too. IRL we only create a single parameterized constructor which we satisfies our need
+
+---
+
+**Class & Indtance Attributes**
