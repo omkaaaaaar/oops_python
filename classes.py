@@ -71,3 +71,21 @@
 # print(s1.name, s1.marks, s1.clg_name) #itll print Omkar as name bcuz, Obj attr > Class attr
 # print(Student.clg_name)        
 
+#1.7 Methods
+class Student: #class
+    clg_name="Konkan Gyanpeeth College" #class attr
+
+    def __init__(self, fullname, marks):  #constructor
+        self.name=fullname #obj attr
+        self.marks=marks
+
+    def welcome(self):   #Method1 = functions inside the class = methods
+        print("Welcome student,", self.name)
+
+    def get_marks(self): #Method2
+        return (self.marks)
+
+s1=Student("Omkar", 85.3) #ts is a object
+print(s1.marks)
+s1.welcome()
+print(s1.get_marks())

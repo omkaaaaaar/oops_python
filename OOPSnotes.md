@@ -41,3 +41,22 @@ the precedence of Object attr is more than the class attr, Obj attr > class attr
 ---
 
 **Methods**
+Functions (def xyz) inside a class is called Methods
+In class 2 types can be stored/ Class is a collection of 2 things.
+
+1. Data - Attributes/ properties
+2. Methods - Methods are functions that belong to objects**FUNCTIONS ARE METHODS**
+
+---
+
+**RETURN**
+it is used in Fn, it is used to send the value back to the caller,
+basically after the function completes it working, then it **RETURNS/GIVES BACK/SENDS BACK** the value inside the return as the o/p,
+def sum():
+a=6
+b=6
+return a+b #ts gets sends as the o/p of sum()
+s = sum() #the value/answer of sum gets stores in s
+print (s) -> ts will o/p 12
+
+---
